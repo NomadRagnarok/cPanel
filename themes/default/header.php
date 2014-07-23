@@ -27,10 +27,10 @@
 					<ul>
 						<li><a href="<?php echo $this->url('main'); ?>" ><img src="<?php echo $this->themePath('img/navigation.png'); ?>" /></a></li>
 						<li><a href="<?php echo $EADev['forum']; ?>" target="_blank" ><img src="<?php echo $this->themePath('img/navigation.png'); ?>" /></a></li>
-						<li><a href="<?php echo $this->url('main','download'); ?>" ><img src="<?php echo $this->themePath('img/navigation.png'); ?>" /></a></li>
+						<li><a href="http://ragnaroktales.com/forums/page/download" ><img src="<?php echo $this->themePath('img/navigation.png'); ?>" /></a></li>
 						<li>&nbsp;</li>
 						<li><a href="<?php echo $this->url('main','info'); ?>" ><img src="<?php echo $this->themePath('img/navigation.png'); ?>" /></a></li>
-						<li><a href="<?php echo $this->url('main','staff'); ?>" ><img src="<?php echo $this->themePath('img/navigation.png'); ?>" /></a></li>
+						<li><a href="http://ragnaroktales.com/?module=account&action=create" ><img src="<?php echo $this->themePath('img/navigation.png'); ?>" /></a></li>
 						<li><a href="<?php echo $this->url('donate'); ?>" ><img src="<?php echo $this->themePath('img/navigation.png'); ?>" /></a></li>
 					</ul>
 					<div class="clear"></div>

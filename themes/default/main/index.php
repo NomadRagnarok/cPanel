@@ -27,12 +27,8 @@
 		<div class="clear"></div>
 	</div>
 	<div class="indexBottom">
-		<div class="videoArea">
-			<?php echo $EADev['youtube-video']; ?>
-		</div>
 		<div class="woeSchdArea">
-			<div class="woeSchd">
-				<h2>WoE Schedule</h2>
+			<div class="woeSchd"><br/><br/><br/><br/>
 				<table cellspacing="0" cellpadding="0">
 					<?php foreach ( $EADev['woeSchd'] as $key => $value) { ?>
 					<tr>
@@ -42,30 +38,9 @@
 					<?php } ?>
 				</table>
 			</div>
-			<div class="database">
-				<h2>RO Tales Database</h2>
-				<form action="<?php echo $this->url; ?>" autocomplete="off">
-				<div class="databaseRadio">
-					<table cellspacing="0" cellpadding="0">
-						<tr>
-							<td>
-								<input type="radio" id="item" name="searchfor" value="item" checked="checked" />
-								<label for="item"><span>Item Search</span></label>
-							</td>
-							<td>
-								<input type="radio" id="monster" name="searchfor" value="monster" />
-								<label for="monster"><span>Monster Search</span></label>
-							</td>
-						</tr>	
-					</table>
-				</div>
-				<div class="inputBoxes">
-					<input type="text" name="name" placeholder="Enter Name" autocomplete="off">
-					<input type="submit" name="searchDatabase" class="searchButton">
-					<div class="clear"></div>
-				</div>
-				</form>
-			</div>
+		</div>
+		<div class="videoArea">
+			<?php echo $EADev['youtube-video']; ?>
 		</div>
 		<div class="otherButtons">
 			<ul>
